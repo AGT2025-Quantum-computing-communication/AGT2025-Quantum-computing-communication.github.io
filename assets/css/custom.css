@@ -1,0 +1,120 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 2rem;
+  background-color: #e0f7fa;
+}
+.header-logo {
+  width: 120px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 1rem auto;
+}
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+footer {
+  margin-top: 2rem;
+  font-size: 0.9em;
+  color: #777;
+}
+
+header {
+  background-color: #1565c0; /* header background */
+  color: white;               /* text color */
+  padding: 1rem 0;            /* spacing */
+}
+
+header h1 a {
+  color: white;               /* make the site title link white */
+  text-decoration: none;
+}
+
+header nav a {
+  color: white;               /* nav links white */
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+header.flex-row {
+  display: flex;
+  justify-content: space-between; /* logo left, nav right */
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #1565c0;
+}
+
+.header-logo {
+  width: 100px;
+  border-radius: 50%;
+}
+
+
+/*This block combine with default.html to divide the page in different sections*/
+.main-grid {
+  display: grid;
+  grid-template-columns: 1fr 3fr; /* sidebar 1/4 width, main 3/4 */
+  gap: 20px;
+  padding: 20px;
+}
+
+aside {
+  background-color: #f5f5f5;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+section {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 10px;
+}
+/*It ends here*/
+.rounded {
+  border-radius: 12px;
+  max-width: none; /* remove default 100% stretching */
+  height: auto;
+}
+
+/*The following 5 blocks help to control position of elements on the page*/
+.bottom-right {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+
+.top-right {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+
+.bottom-left {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+}
+
+.top-left {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+}
+
+.absolute-box {
+  position: absolute;
+  top: 50px;    /* distance from the top */
+  right: 30px;  /* distance from the right */
+}
+
+p {
+  text-align: justify;
+}
+
