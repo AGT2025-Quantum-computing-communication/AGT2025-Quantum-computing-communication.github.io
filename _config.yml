@@ -1,0 +1,10 @@
+theme: jekyll-theme-cayman
+title: AG TENE Home Page
+description: Personal site hosted on GitHub Pages
+url: "https://agtene2025-quantum-computing-communication.github.io"
+include:
+  - assets/css/custom.css
+plugins:
+  - jekyll-sitemap
+  
+author: Alain Giresse TENE
