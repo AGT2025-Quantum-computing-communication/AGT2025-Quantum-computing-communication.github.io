@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" href="{{ '/assets/favicon.ico' | relative_url }}">
+  <meta charset="UTF-8">
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="flex-row">
+    <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
+    <img src="{{ '/assets/mylogo.jpg' | relative_url }}" alt="Logo"  class="header-logo">
+    
+    <nav>
+      <a href="{{"https://agt2025-quantum-computing-communication.github.io/agtene2025-quantum-computing-communication.github.io" }}">Home</a>
+      <a href="{{ '/about/' | relative_url}}">About</a>
+      <a href="{{ '/scholarships/' | relative_url }}">Scholarships</a>
+      <a href="{{ '/contact/' | relative_url }}">Contact</a>
+    </nav>
+  </header>
+  
+  <!-- /*This block combine with .css to divide the page in different sections*/ -->
+  <main>
+  <div class="main-grid">
+    <aside>
+      <h3>Links and profile info </h3>
+      <p>
+      <img src="{{'/assets/My_img.jpg' | relative_url }}" alt="Quantum Lab" width="250" class="rounded">
+      </p>
+      <p> <a href="{{"https://scholar.google.com/citations?user=fs5BEqIAAAAJ&hl=en&oi=ao" }}">Google profile</a>
+     </p>
+      <p>
+      <a href="{{ '/about/' | relative_url}}">About me</a>
+      </p>
+      <p>
+      <a href="{{ '/publications/' | relative_url}}">Publications</a>
+      </p>
+      <p>
+     <a href="{{ '/awards/' | relative_url}}">Awards</a>
+      </p>
+    </aside>
+    <section>
+      {{ content }}
+    </section>
+  </div>
+</main>
+<!-- It ends here  -->
+  
+  <footer>
+    <p>&copy; {{ site.time | date: '%Y' }} {{ site.author }}</p>
+  </footer>
+</body>
+</html>
