@@ -48,7 +48,7 @@ This is where I share my projects and ideas.
 
 
 
-![Alain photo]({{ '/assets/mylogo.jpg' | relative_url }}){: width="600" style="margin-left:10px"}
+![Alain photo]({{ '/assets/mylogo.jpg' | relative_url }}){: .center width="600" style="margin-left:10px"}
 
 <div>
 <h2> Center for Quantum Computing-University of Kwazulu-Natal</h2>
