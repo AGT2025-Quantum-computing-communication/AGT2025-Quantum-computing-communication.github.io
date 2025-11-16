@@ -14,7 +14,7 @@ title: Home
 </a>
 </div>
 
-<div style="position: absolute; top: 160px; right: 60px;">
+<div style="position: absolute; top: 165px; right: 60px;">
 <a href="https://www.google.com/search?q=Alain+Giresse+Tene" target="e.g" style="margin-left:10px;">
   <img src="{{ '/assets/search-icon.svg' | relative_url }}" 
        alt="Google Search" 
