@@ -5,11 +5,11 @@ title: Home
 <header> 
 
 
-<div style="position: absolute; top: 200px; left: 445px;">
+<div style="position: absolute; top: 195px; left: 445px;">
 <a href="https://www.ibm.com/think/topics/quantum-computing" target="_blank" style="margin-left:10px;">
   <img src="{{ '/assets/mylogo.jpg' | relative_url }}" 
        alt="quantum computing" 
-       width="50" 
+       width="40" 
        class="rounded">
 </a>
 </div>
