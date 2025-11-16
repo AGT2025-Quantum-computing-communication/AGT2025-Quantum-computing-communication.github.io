@@ -31,9 +31,10 @@ This is where I share my projects and ideas.
 ## Projects:
 
 <div style="text-align:center;">
-- Quantum Circuit Visualizer
-- Quantum optimzation problems
-- Android Weather App
+[x] Quantum optimzation problems;
+[x] Quantum key distribution with quantum computing;
+[x]  Quantum Circuit Visualizer;
+[x] Android  Applications.
 </div>
 
 
