@@ -5,7 +5,7 @@ title: Home
 <header> 
 
 
-<div style="position: absolute; top: 180px; left: 450px;">
+<div style="position: absolute; top: 185px; left: 445px;">
 <a href="https://www.ibm.com/think/topics/quantum-computing" target="_blank" style="margin-left:10px;">
   <img src="{{ '/assets/mylogo.jpg' | relative_url }}" 
        alt="quantum computing" 
@@ -14,7 +14,7 @@ title: Home
 </a>
 </div>
 
-<div style="position: absolute; top: 180px; right: 60px;">
+<div style="position: absolute; top: 180px; right: 65px;">
 <a href="https://www.google.com/search?q=Alain+Giresse+Tene" target="e.g" style="margin-left:10px;">
   <img src="{{ '/assets/search-icon.svg' | relative_url }}" 
        alt="Google Search" 
