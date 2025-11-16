@@ -9,6 +9,7 @@ body {
   border-radius: 50%;
   display: block;
   margin: 0 auto 1rem auto;
+  max-width: 1200px;
 }
 nav a {
   margin: 0 10px;
@@ -52,7 +53,7 @@ header.flex-row {
 }
 
 .header-logo {
-  width: 100px;
+  width: 150px;
   border-radius: 50%;
 }
 
