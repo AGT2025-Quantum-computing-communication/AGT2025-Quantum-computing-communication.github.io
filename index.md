@@ -30,12 +30,14 @@ This is where I share my projects and ideas.
 
 ## Projects:
 
-<div style="text-align:center;">
-[x] Quantum optimzation problems;
-[x] Quantum key distribution with quantum computing;
-[x]  Quantum Circuit Visualizer;
-[x] Android  Applications.
-</div>
+- [x] Quantum optimzation problems;
+      
+- [x] Quantum key distribution with quantum computing;
+      
+- [x]  Quantum Circuit Visualizer;
+      
+- [x] Android  Applications.
+
 
 
 ![Alain photo]({{ '/assets/mylogo.jpg' | relative_url }}){: width="600" style="margin-left:10px"}
