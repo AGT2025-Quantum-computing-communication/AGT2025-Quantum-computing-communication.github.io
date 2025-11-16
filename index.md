@@ -9,12 +9,12 @@ title: Home
 <a href="https://www.ibm.com/think/topics/quantum-computing" target="_blank" style="margin-left:10px;">
   <img src="{{ '/assets/mylogo.jpg' | relative_url }}" 
        alt="quantum computing" 
-       width="30" 
+       width="50" 
        class="rounded">
 </a>
 </div>
 
-<div style="position: absolute; top: 205px; right: 65px;">
+<div style="position: absolute; top: 195px; right: 65px;">
 <a href="https://www.google.com/search?q=Alain+Giresse+Tene" target="e.g" style="margin-left:10px;">
   <img src="{{ '/assets/search-icon.svg' | relative_url }}" 
        alt="Google Search" 
