@@ -5,7 +5,7 @@ title: Home
 <header> 
 
 
-<div style="position: absolute; top: 160px; left: 60px;">
+<div style="position: absolute; top: 170px; left: 100px;">
 <a href="https://www.ibm.com/think/topics/quantum-computing" target="_blank" style="margin-left:10px;">
   <img src="{{ '/assets/mylogo.jpg' | relative_url }}" 
        alt="quantum computing" 
@@ -14,7 +14,7 @@ title: Home
 </a>
 </div>
 
-<div style="position: absolute; top: 165px; right: 60px;">
+<div style="position: absolute; top: 170px; right: 60px;">
 <a href="https://www.google.com/search?q=Alain+Giresse+Tene" target="e.g" style="margin-left:10px;">
   <img src="{{ '/assets/search-icon.svg' | relative_url }}" 
        alt="Google Search" 
@@ -26,7 +26,12 @@ title: Home
 </header>
 # Welcome to My Website!
 
-This is where I share my projects and ideas.
+<p align="center">
+  <span style="color: #1E90FF; font-weight: bold; font-size: 24px;">
+    This is where I share my projects and ideas.
+  </span>
+</p>
+
 
 ## Projects:
 
