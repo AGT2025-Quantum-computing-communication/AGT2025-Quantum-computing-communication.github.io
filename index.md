@@ -35,7 +35,7 @@ This is where I share my projects and ideas.
 - [x] Quantum key distribution with quantum computing;
       Here, I entend to simulating entanglement based quantum key distribution (the E91 protocol) in quantum computers. I demonstrate that the secure
       key rate depends on the selected quantum hardware qubit-pair on which the experiment is executed, in the sense that the pair of qubit with lower two-
-      qubit error provide lower quantum bit error rate and higher key length, independent of eavesdroper's interference. You can find full detailled algorithm on [my github page]()
+      qubit error provide lower quantum bit error rate and higher key length, independent of eavesdroper's interference. You can find full detailled algorithm on [my github page](https://github.com/AGT2025-Quantum-computing-communication/Efficient-algorithm-for-variational-quantum-linear-solver)
 - [x]  Quantum Circuit Visualizer;
       
 - [x] Android  Applications.
