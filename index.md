@@ -36,7 +36,7 @@ This is where I share my projects and ideas.
       Starting from the latest algorithm, it consists of employing the parallelism advantage that offers quantum computers to speedup the convergence to
       the target state(solution), within a reasonable time limit. You can find a fully detailed efficient algorithm for VQLS  on [my github page.](https://github.com/AGT2025-Quantum-computing-communication/Efficient-algorithm-for-variational-quantum-linear-solver)
       
-- [x] **Quantum key distribution with quantum computing;**
+- [x] **Quantum key distribution with quantum computing;**<br>
       Here, I intend to simulating entanglement based quantum key distribution (the E91 protocol) in quantum computers. I demonstrate that the secure
       key rate depends on the selected quantum hardware qubit-pair on which the experiment is executed, in the sense that the pair of qubit with lower two-
       qubit error provide lower quantum bit error rate and higher key length, independent of eavesdropper’s interference. You can find a fully detailed
