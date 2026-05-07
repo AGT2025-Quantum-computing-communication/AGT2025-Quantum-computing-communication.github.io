@@ -36,7 +36,7 @@ title: Home
 ## Projects:
 
 - [x] **Quantum optimization problems;**<br>
-      In this project my aims is to provide efficient algorithms for solving optimization problems in current noisy-intermediate scale quantum computers on
+      This project aims to provide efficient algorithms for solving optimization problems in current noisy-intermediate scale quantum computers on
       one hand and a variational quantum linear solver algorithms for high dimensional systems, with application to Poisson equation on the other hand.
       Starting from the latest algorithm, it consists of employing the parallelism advantage that offers quantum computers to speedup the convergence to
       the target state(solution), within a reasonable time limit. You can find a fully detailed efficient algorithm for VQLS  on [my github page.](https://github.com/AGT2025-Quantum-computing-communication/Efficient-algorithm-for-variational-quantum-linear-solver)
