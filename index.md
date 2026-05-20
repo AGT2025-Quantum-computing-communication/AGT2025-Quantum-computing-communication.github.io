@@ -31,7 +31,12 @@ title: Home
     This is where I share my projects and ideas.
   </span>
 </p>
-
+<nav>
+    <a href="index.html">Home</a>
+    <a href="research.html">Research</a>
+    <a href="publications.html">Publications</a>
+    <a href="news.html">News & Events</a>
+</nav>
 
 ## Projects:
 
