@@ -27,7 +27,7 @@ title: Home
 <nav>
     <a href="index.html">Home</a>
     <a href="research.html">Research</a>
-    <a href="publications.md">Publications</a>
+    <a href="publications">Publications</a>
     <a href="news.html">News & Events</a>
 </nav>
 # Welcome to My Website!
