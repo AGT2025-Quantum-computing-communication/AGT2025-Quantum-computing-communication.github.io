@@ -8,7 +8,7 @@ permalink: /publications/
 
 [Solving a Linear System of Equations on a Quantum Computer by Measurement ](https://doi.org/10.48550/arXiv.2604.26098).
 
-[A verification scheme for universal quantum computers](https://doi.org/10.21203/rs.3.rs-8492143/v1 ).
+[A verification scheme for universal quantum computers](https://doi.org/10.1007/s11128-026-05193-2).
 
 [Error correction based artificial neural network in multi-modes CV-QKD with simultaneous type-I and type-II parametric-down conversion entangled photon source](https://doi.org/10.1016/j.optcom.2024.130681).
 
