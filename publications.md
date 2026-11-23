@@ -63,9 +63,9 @@ https://doi.org/10.1016/j.chaos.2019.109553)
 **Abstract:** 
 
 14- [Generalized synchronization of the extended Hindmarsh–Rose neuronal model with fractional order 
-derivative](https://doi.org/10.1016/j.chaos.2018.11.02)
+derivative](https://doi.org/10.1016/j.chaos.2018.11.028)
  
-**Abstract:** 
+**Abstract:** In the present paper, the synchronization of the extended Hindmarsh–Rose neuronal model with fractional order derivative is presented in detail taking into consideration the effects of the very slow intracellular exchange of calcium ion (Ca2+) occurring between cytoplasm and its store. That is, we approach the synchronization by the Ge–Yao–Chen partial region stability theory. The method of resolution used is the powerful Adam–Bashforth–Moulton method which converges quickly to the exact solution. Numerical simulations of the error dynamics proved the effectiveness of the control method. The synchronization time is evaluated for different orders of the derivative and its analysis shows that, it is closely related to the order of the derivative and that fractional order induces quick synchronization compared to integer order.
 
 15- [Effect of Non-Commutative Space on Quantum Correlations in Two Bilinearly Coupled Harmonic Oscillators Interacting with its Environment](https://doi.org/10.1007/s10773-022-05065-2) 
 
@@ -82,7 +82,7 @@ derivative](https://doi.org/10.1016/j.chaos.2018.11.02)
 18- [Decoherence of a damped anisotropic harmonic oscillator under magnetic field effects in a two-dimensional noncommutative 
 phase-space](https://doi.org/10.4236/jamp.2020.812207) 
 
-**Abstract:** 
+**Abstract:** In this paper, decoherence of a damped anisotropic harmonic oscillator in the presence of a magnetic field is studied in the framework of the Lindblad theory of open quantum systems in noncommutative phase-space. General fundamental conditions that should follow our quantum mechanical diffusion coefficients appearing in the master equation are kindly derived. From the master equation, the expressions of density operator, the Wigner distribution function, the expectation and variance with respect to coordinates and momenta are obtained. Based on these quantities, the total energy of the system is evaluated and simulations show its dependency to phase-space structure and its improvement due to noncommutativity effects and the environmental temperature as well. In addition, we also evaluate the decoherence time scale and show that it increases with noncommutativity phase-space effects as compared to the commutative case. It turns out from simulations that this time scale is significantly improved under magnetic field effects.
 
 19- [The dynamic of quantum entanglement of two dimensional harmonic oscillator in non-commutative space](https://doi.org/10.1088/1402-4896/ac42a9) 
 
