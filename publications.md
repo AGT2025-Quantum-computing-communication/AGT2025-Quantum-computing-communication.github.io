@@ -11,6 +11,7 @@ permalink: /publications/
 **Abstract:** The Poisson equation is a cornerstone of mathematical physics and applied mathematics, governing a broad class of physical processes encountered in fields such as fluid mechanics, electrostatics, heat conduction, and various engineering applications. Solving high-dimensional Poisson equations remains computationally challenging for classical methods due to the rapid growth of computational resources required with problem size. In this work, we propose a highly efficient variational quantum algorithm (VQA) for solving the Poisson equation and demonstrate improved accuracy compared with existing quantum approaches. The proposed algorithm consists of three main stages: (i) reformulating the Poisson equation as an eigenvalue problem whose solution corresponds to the ground state of a suitably constructed Hamiltonian, (ii) applying Quantum Phase Estimation (QPE) to encode the Hamiltonian eigenvalues into an auxiliary quantum register, and (iii) employing a classical optimization procedure to maximize the probability of measuring the ground-state energy. We validate the algorithm using Qiskit simulations on Poisson equations with 4, 8, 16, 64, and 256 variables. Our results show that the algorithm achieves high target-state fidelity and low root-mean-square error (RMSE). In particular, the fidelity scales as $O(1-\varepsilon)$, where the error $\varepsilon$ decreases inversely with the number of measurements, approaching the Heisenberg limit. Furthermore, the RMSE decreases as the number of qubits in the energy register increases, leading to progressively more accurate solutions. We also demonstrate the practical feasibility of the approach on the $ibm \_ fez$ quantum processor, obtaining solutions with $\mathrm{RMSE}\lesssim10^{-3}$ for the 4 variables Poisson equation despite the presence of hardware noise. Additional experiments using the \textit{FakeFez} backend reveal that performance remains robust for moderate problem sizes but is ultimately limited by circuit depth on current noisy quantum devices. These results indicate that the proposed VQA provides an effective framework for solving Poisson equations on quantum computers and represents a promising approach for future fault-tolerant quantum architectures. More broadly, the method can be extended to a wide range of applications involving Hamiltonian ground-state preparation, including optimization, machine learning, and quantum chemistry.
 
 2- [Solving a Linear System of Equations on a Quantum Computer by Measurement ](https://doi.org/10.48550/arXiv.2604.26098).
+
 **Abstract:** We present a variational algorithm for fault tolerant quantum computing to solve a system of linear equations  which directly maximises the parameters of the target fidelity. This so-called measurement test algorithm can be applied to any computational task with a solution that is represented as eigenvector of a self-adjoint matrix. The solution is prepared as state of a register in the quantum computer by a von Neumann measurement of a corresponding observable, which is implemented using the phase estimation algorithm. The probability to project the system thus into the unknown target state, which equals the target fidelity,  is measured in terms of relative frequencies and iteratively optimised to read out the target state.   The new algorithm overcomes three issues of previous variational quantum algorithms: i) It does not rely on a decomposition in terms of Pauli strings and therefore can compute eigenvectors of dense matrices. ii) The accuracy  is not limited by the condition number $\kappa$ of the matrix, provided a logarithmic number ($O(\log\kappa)$) of qubits is used to encode the eigenvalues and iii) the target fidelity $F_T = 1-\epsilon$ can be reached with an accuracy that scales with $\epsilon \varpropto1/N$ for $N$ measurements per iteration. We demonstrate this by numerical simulations for dense random real-valued $16\times 16$ matrices with non-vanishing determinant.  
 
 3- [A verification scheme for universal quantum computers](https://doi.org/10.1007/s11128-026-05193-2).
@@ -23,46 +24,73 @@ permalink: /publications/
 
 5- [Privacy amplification of entanglement parametric-down conversion based quantum key distribution via quantum logistic map for photon bases choice](https://doi.org/10.1016/j.chaos.2020.110110)
 
+**Abstract:** This paper proposes a new quantum key distribution (QKD) protocol, namely the pseudo-random bases entangled-photons based QKD (PRB-EPQKD) protocol. The latest mainly focuses on the privacy amplification analysis of spontaneous parametric down conversion (SPDC) entangled photon source based QKD using quantum logistic map (QLM) as pseudo-random number generator (PRNG) for photon polarization state measurement bases choice. For this reason, the SPDC wave function is derived and the probability distribution is deduced. The comparison shows that, this probability follows Poisson distribution, implying that the photons pairs produced are independent. Based on this, the quantum bit error rate (QBER) is evaluated and consequently the secure key rate. Simulations show that this protocol is particularly efficient as regard to the maximum tolerable communication distance and the secure key size as well. The fact that, an eavesdropper must crack the chaotic and the QKD systems simultaneously in order to extract any useful information concerning the encryption key makes the key generation protocol more private as compared to existing ones.
 
+6- [Security and Communication Distance Improvement in Decoy States Based Quantum Key Distribution Using Pseudo-Random Bases Choice for Photon Polarization Measurement](https://doi.org/10.1007/s11082-021-03124-2) 
 
-[Security and Communication Distance Improvement in Decoy States Based Quantum Key Distribution Using Pseudo-Random Bases Choice for Photon Polarization Measurement](https://doi.org/10.1007/s11082-021-03124-2) 
+**Abstract:** This paper proposes a new quantum key distribution(QKD) protocol, namely the pseudo-random bases entangled photon based QKD (PRB-EPQKD) protocol. The latest mainly focuses on three properties, including the security of the protocol, the secure key size and the maximum communication distance between legitimate communication users (Alice and Bob). To achieve this, we first consider a spontaneous-parametric-down (SPDC) photon source located in a low-earth-orbit (LEO) type satellite capable of producing and distributing entangled photons pairs to Alice and Bob. Secondly, we assume that Alice’s and Bob’s photons state measurement bases are identically generated via a pseudo-random number generator (PRNG), namely the quantum logistic map (QLM). Finally, we also assume that in addition to their photons states, Alice and Bob intentionally share a set of decoy states at each pulse with randomly selected intensity, and with the goal to detect the presence of the eavesdropper (Eve). Under these considerations, the secure key rate upper bound is evaluated applying the Gottesman-Lo-Lutkenhaus-Preskill’s (GLLP) formula, for two different implementations, namely the non-decoy states and the infinite active decoy states based QKD. It is observed a significant improvement in the secure key size and the communication distance as well, compared to existing protocols, since we realize that under daylight, downlinks satellite conditions, a kindly selected light source, and good crystal’s properties, the maximum communication distance can reach up to 70000 km. In addition, using the combined type-I and type-II SPDC photons source as our entangled photons pairs generator, significantly improved the photon mean number and render our protocol more robust against photon number division attack and against attenuation-induced atmospheric propagation. Furthermore, the protocol is more secure as compared to existing ones, given that any eavesdropper must crack simultaneously the chaotic system used as PRNG and the QKD system, before getting any useful information as regards to the measurement bases used by Alice and Bob, and thus the secure key.
 
+7- [Triggering parametric-down conversion-based quantum key distribution via radiation field](https://doi.org/10.1142/S0219749920500379) 
 
-[Entanglement dynamics of two-qubit and two-qutrit systems coupled to an XY-spin-chain environment: Simultaneous effects of Dzyaloshinskii–Moriya and Kaplan–Shekhtman–Entin-Wohlman–Aharony interactions](https://doi.org/10.1016/j.physb.2024.416691)
-  
+**Abstract:** We discuss the influence of radiation field on the secure key size and the maximum safety distance during QKD by using a set of photons produced via a spontaneous parametric-down conversion (SPDC) photon source. Four implementations that use multiple-photons and decoy states are discussed, these include nondecoy state, infinite active decoy state, passive decoy state with threshold detector and passive decoy state with perfect photon-number resolving detector. Results show that the radiation field significantly improves both the secure key size and the maximum secure communication distance. Therefore, the radiation field is found to be a good candidate to reduce unwanted interactions of photons with the quantum channel and hence, to increase the secure key rate and the maximum safety distance between legitimate users.
 
-[Entanglement Dynamics of a Two-qubit XYZ Spin Chain Under both Dzyaloshinskii-Moriya Interaction and Time-dependent Anisotropic Magnetic Field](https://doi.org/10.1007/s10773-020-04502-4)
+8- [Teleportation of single and bipartite states via a two qubits xxz Heizenberg spin chain in a non-Markovian environment](https://doi.org/10.1016/j.physleta.2020.126719) 
 
-[Triggering parametric-down conversion-based quantum key distribution via radiation field](https://doi.org/10.1142/S0219749920500379) 
+**Abstract:** Quantum teleportation of single particle states and bipartite spin states via a channel composed of a two-qubits xxz Heisenberg spin chain under the effects of Dzyaloshinski-Moriya interaction, which interacts with a non-Markovian environment as a noisy quantum channel is investigated. The quantum channel and the initial state of the system are shown to be the fundamental elements that fully characterize entanglement and the teleportation average fidelity. For too low entanglement of the channel the output entanglement becomes zero (there is teleportation failure). For an initial entangled state, the Non-Markovian environment causes revivals in the average fidelity after it falls below the critical value of 2/3
+. The Dzyaloshinski-Moriya interactions are observed to enhance the revivals in the average fidelity; this is an interesting result because alongside the Non-Markovian bath, the effect of the Dzyaloshinski-Moriya interaction, can be used to improve the efficiency of the quantum channel for teleporting quantum states.
 
-[Teleportation of single and bipartite states via a two qubits xxz Heizenberg spin chain in a non-Markovian environment](https://doi.org/10.1016/j.physleta.2020.126719)  
+9- [Entanglement dynamics of two-qubit and two-qutrit systems coupled to an XY-spin-chain environment: Simultaneous effects of Dzyaloshinskii–Moriya and Kaplan–Shekhtman–Entin-Wohlman–Aharony interactions](https://doi.org/10.1016/j.physb.2024.416691)
 
-[Chaos generalized synchronization of coupled Mathieu-Van der Pol and coupled Duffing-Van der Pol systems using fractional 
+**Abstract:** We investigate the joint effects of Dzyaloshinskii–Moriya (DM) and Kaplan–Shekhtman–Entin-Wohlman–Aharony (KSEA) interactions on entanglement dynamics of two-qubit and two-qutrit anisotropic Heisenberg spin systems, coupled to an XY-spin-chain environment. Entanglement quantifiers such as concurrence and negativity are employed. Simulations show that the joint effect of KSEA and DM interactions is significantly benefit to preserve entanglement. This is more robust by applying in addition an external magnetic field to protect each system from unwanted environmental effects. In addition, the phase transition signature observed due to ferromagnetic nature of XY-spin systems is better stabilized thanks to KSEA interaction. We also observe that this interaction strongly improves the correlation time. However, it tends to flatten (without annihilating) the entanglement survival behavior induced by the magnetic field and the DM interaction. Further, it is observed that under similar conditions entanglement is more robust for two-qutrit as compared to two-qubit system.
+
+10- [Entanglement Dynamics of a Two-qubit XYZ Spin Chain Under both Dzyaloshinskii-Moriya Interaction and Time-dependent Anisotropic Magnetic Field](https://doi.org/10.1007/s10773-020-04502-4)
+
+**Abstract:** In the present paper, the quantum entanglement dynamics of two qubits Heisenberg-XYZ spin chain under a time dependent magnetic field effects, and considering the Dzyaloshinskii-Moriya (DM) interactions is studied. Assuming the system as being influenced by a non-Markovian environment, the dynamics of entanglement through the concurrence is studied. It follows from the simulations that the time dependency character of the DM coupling, the external magnetic field, and the Heisenberg spin-spin coupling preserves longer entanglement in the system compared to the case with these parameters constant. Moreover, it also follows that the effects of the environment on the system induces the loss of entanglement and then, the time interval of entanglement sudden death highly depends on the initial state considered. It is also observed that by tuning the strength of the DM coupling associated with a time varying magnetic field and a time varying spin-spin anisotropic coupling, the system can be better protected from unwanted effects of the environment and thus, entanglement can be preserved for a longer period of time.
+
+11- [Comparative study of the dynamics of quantum entanglement, purity and degree of purity in two hybrid quantum systems: non-Markovian and Markovian regime]( https://doi.org/10.1007/s73-022-05065-2) 
+
+**Abstract:** 
+
+12- [Chaos generalized synchronization of coupled Mathieu-Van der Pol and coupled Duffing-Van der Pol systems using fractional 
 order-derivative](https://doi.org/10.1016/j.chaos.2017.03.012) 
 
-[Comparative study of the dynamics of quantum entanglement, purity and degree of purity in two hybrid quantum systems: non-Markovian and Markovian regime]( https://doi.org/10.1007/s73-022-05065-2) 
+**Abstract:** In the present paper, the synchronization by the Ge-Yao-Chen (GYC) partial region stability theory of chaotic Mathieu-Van der Pol and chaotic Duffing-Van der Pol systems with fractional order-derivative is proposed. Numerical simulations show that this synchronization technique is very effective and it turns out that the fractional order-derivative induces quick synchronization compared to integer order-derivative of these systems. In order to bring out the chaotic behavior of these systems either with fractional or with integer order-derivative, we simulate their phase portraits and the Lyapunov exponent. Moreover, we provide in this work an approximated solution to both systems to show that the solution of such a system can be represented as a simple power-series function. Furthermore, the representation of the error dynamics with respect to the time before and after the control action approves the effectiveness of the control method and proves the possibility of stabilization and controllability of chaotic systems with an appropriate. Furthermore, the synchronization of the fractional Mathieu-Van der Pol system using the fractional Duffing-Van der Pol system is simulated.
 
-[Chaos generalized synchronization of coupled Mathieu-Van der Pol and coupled Duffing-Van der Pol systems using fractional order-derivative](https://www.sciencedirect.com/science/article/pii/S0960077917300681)
 
-[Generalized synchronization of regulate seizures dynamics in partial epilepsy with fractionalorder derivatives](
+13- [Generalized synchronization of regulate seizures dynamics in partial epilepsy with fractionalorder derivatives](
 https://doi.org/10.1016/j.chaos.2019.109553)
 
-[Generalized synchronization of the extended Hindmarsh–Rose neuronal model with fractional order 
+**Abstract:** 
+
+14- [Generalized synchronization of the extended Hindmarsh–Rose neuronal model with fractional order 
 derivative](https://doi.org/10.1016/j.chaos.2018.11.02)
  
+**Abstract:** 
 
-[Effect of Non-Commutative Space on Quantum Correlations in Two Bilinearly Coupled Harmonic Oscillators Interacting with its Environment](https://doi.org/10.1007/s10773-022-05065-2) 
+15- [Effect of Non-Commutative Space on Quantum Correlations in Two Bilinearly Coupled Harmonic Oscillators Interacting with its Environment](https://doi.org/10.1007/s10773-022-05065-2) 
 
-[Decoherence dynamics of a charged particle within a nondemolition type interaction in non-commutative phase-space](https://doi.org/10.1088/1402-4896/ac0273)  
+**Abstract:** 
 
-[Decoherence of quantum Brownian particle trapped in a penning potential in a non-commutative space](https://doi.org/10.1088/2399-6528/ab2b37) 
+16- [Decoherence dynamics of a charged particle within a nondemolition type interaction in non-commutative phase-space](https://doi.org/10.1088/1402-4896/ac0273)  
 
-[Decoherence of a damped anisotropic harmonic oscillator under magnetic field effects in a two-dimensional noncommutative 
+**Abstract:** 
+
+17- [Decoherence of quantum Brownian particle trapped in a penning potential in a non-commutative space](https://doi.org/10.1088/2399-6528/ab2b37) 
+
+**Abstract:** 
+
+18- [Decoherence of a damped anisotropic harmonic oscillator under magnetic field effects in a two-dimensional noncommutative 
 phase-space](https://doi.org/10.4236/jamp.2020.812207) 
 
-[The dynamic of quantum entanglement of two dimensional harmonic oscillator in non-commutative space](https://doi.org/10.1088/1402-4896/ac42a9) 
+**Abstract:** 
 
-[Novel Cryptography Technique via Chaos Synchronization of Fractional-Order Derivative Systems](https://doi.org/10.4018/978-1-5225-5418-9.ch01)     
+19- [The dynamic of quantum entanglement of two dimensional harmonic oscillator in non-commutative space](https://doi.org/10.1088/1402-4896/ac42a9) 
+
+**Abstract:** 
+
+20- [Novel Cryptography Technique via Chaos Synchronization of Fractional-Order Derivative Systems](https://doi.org/10.4018/978-1-5225-5418-9.ch01)     
+
+**Abstract:** 
 
 <ul>
   {% for post in site.publications %}
