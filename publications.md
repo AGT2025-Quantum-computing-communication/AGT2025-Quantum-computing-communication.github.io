@@ -6,6 +6,8 @@ permalink: /publications/
 <!-- The following will generate a list of all your posts with clickable titles and dates -->
 <h1>Publications list</h1>
 
+[A Highly Efficient Variational Quantum Algorithm for Solving the Poisson Equation on Quantum Computers](https://doi.org/10.1007/s11128-2)
+
 [Solving a Linear System of Equations on a Quantum Computer by Measurement ](https://doi.org/10.48550/arXiv.2604.26098).
 
 [A verification scheme for universal quantum computers](https://doi.org/10.1007/s11128-026-05193-2).
