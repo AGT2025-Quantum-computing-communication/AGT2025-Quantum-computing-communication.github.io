@@ -5,4 +5,4 @@ permalink: /contact/
 ---
 
 # Contact
-You can reach me at **tenea@ukzn.ac.za** or **alain.tene@aims-cameroon.org**
+You can reach me at **+237 673 81 76 24** or by Email: **alain.tene@aims-cameroon.org**
