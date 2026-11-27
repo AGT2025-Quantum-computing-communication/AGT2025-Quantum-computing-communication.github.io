@@ -22,7 +22,7 @@ permalink: /en/about/
   </div>
 
   <div style="flex: 0 1 280px; text-align: center;">
-    <img src="{{ '/assets/My_img.jpg' | relative_url }}" alt="Portrait of Alain Giresse TENE" style="width: 100%; max-width: 280px; height: auto; border-radius: 15px; object-fit: cover;">
+    <img src="{{ '/assets/css/My_img.jpg' | relative_url }}" alt="Portrait of Alain Giresse TENE" style="width: 100%; max-width: 280px; height: auto; border-radius: 15px; object-fit: cover;">
   </div>
 
 </div>
