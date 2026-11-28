@@ -1,54 +1,282 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ page.lang | default: 'en' }}">
 <head>
-  <link rel="icon" href="{{ '/assets/favicon.ico' | relative_url }}">
   <meta charset="UTF-8">
-  <title>{{ page.title }} | {{ site.title }}</title>
-  <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>
+    {% if page.title %}
+      {{ page.title }} | Alain Giresse TENE
+    {% else %}
+      Alain Giresse TENE | Quantum Communication and Computing
+    {% endif %}
+  </title>
+
+  <meta name="description" content="Academic portfolio of Alain Giresse TENE, researcher in quantum communication, quantum computing, quantum algorithms and quantum information science.">
+
+  <meta name="author" content="Alain Giresse TENE">
+
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+
+  <style>
+    :root {
+      --navy: #101d36;
+      --blue: #2563eb;
+      --cyan: #38bdf8;
+      --text: #263449;
+      --muted: #64748b;
+      --background: #f8fafc;
+      --white: #ffffff;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--background);
+      color: var(--text);
+      line-height: 1.75;
+    }
+
+    a {
+      color: var(--blue);
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: #1d4ed8;
+    }
+
+    .site-header {
+      background: var(--navy);
+      color: white;
+      border-bottom: 3px solid var(--cyan);
+    }
+
+    .header-container {
+      max-width: 1150px;
+      margin: auto;
+      padding: 20px 25px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 18px;
+    }
+
+    .brand {
+      color: white;
+      font-size: 21px;
+      font-weight: bold;
+      letter-spacing: 0.3px;
+    }
+
+    .brand span {
+      display: block;
+      color: var(--cyan);
+      font-size: 12px;
+      font-weight: normal;
+      letter-spacing: 1px;
+    }
+
+    .navigation {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 18px;
+    }
+
+    .navigation a {
+      color: white;
+      font-size: 14px;
+      font-weight: 500;
+    }
+
+    .navigation a:hover {
+      color: var(--cyan);
+    }
+
+    .language-link {
+      border: 1px solid var(--cyan);
+      border-radius: 5px;
+      padding: 5px 10px;
+    }
+
+    .main-container {
+      max-width: 1050px;
+      margin: 45px auto;
+      padding: 40px;
+      background: var(--white);
+      border-radius: 12px;
+      box-shadow: 0 5px 25px rgba(15, 23, 42, 0.05);
+      min-height: 450px;
+    }
+
+    .main-container h1 {
+      color: var(--navy);
+      font-size: 34px;
+      line-height: 1.3;
+      margin-top: 0;
+    }
+
+    .main-container h2 {
+      color: var(--navy);
+      font-size: 25px;
+      margin-top: 35px;
+      border-bottom: 2px solid #e2e8f0;
+      padding-bottom: 8px;
+    }
+
+    .main-container h3 {
+      color: #1e40af;
+    }
+
+    .main-container p,
+    .main-container li {
+      font-size: 16px;
+    }
+
+    .main-container img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .main-container blockquote {
+      border-left: 4px solid var(--blue);
+      padding-left: 18px;
+      color: var(--muted);
+    }
+
+    .site-footer {
+      background: var(--navy);
+      color: #cbd5e1;
+      text-align: center;
+      padding: 30px 20px;
+      margin-top: 50px;
+    }
+
+    .footer-links {
+      margin: 12px 0;
+    }
+
+    .footer-links a {
+      color: var(--cyan);
+      margin: 0 10px;
+    }
+
+    .site-footer p {
+      font-size: 13px;
+      margin: 6px 0;
+    }
+
+    @media (max-width: 768px) {
+      .header-container {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .navigation {
+        justify-content: center;
+        gap: 12px;
+      }
+
+      .main-container {
+        margin: 20px 12px;
+        padding: 22px;
+      }
+
+      .main-container h1 {
+        font-size: 28px;
+      }
+
+      .main-container h2 {
+        font-size: 22px;
+      }
+    }
+  </style>
 </head>
+
 <body>
-  <header class="flex-row">
-    <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
-    <img src="{{ '/assets/mylogo.jpg' | relative_url }}" alt="Logo"  class="header-logo">
-    
-    <nav>
-      <a href="{{"https://agt2025-quantum-computing-communication.github.io/agt2025-quantum-computing-communication.github.io" }}">Home</a>
-      <a href="{{ '/about/' | relative_url}}">About</a>
-      <a href="{{ '/scholarships/' | relative_url }}">Scholarships</a>
-      <a href="{{ '/contact/' | relative_url }}">Contact</a>
-    </nav>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="header-container">
+
+      <a class="brand" href="{{ '/en/' | relative_url }}">
+        ALAIN GIRESSE TENE
+        <span>QUANTUM COMMUNICATION & COMPUTING</span>
+      </a>
+
+      <!-- NAVIGATION -->
+      <nav class="navigation">
+
+        {% if page.lang == 'fr' %}
+
+          <a href="{{ '/fr/' | relative_url }}">Accueil</a>
+          <a href="{{ '/fr/a-propos/' | relative_url }}">À propos</a>
+          <a href="{{ '/fr/formation/' | relative_url }}">Formation</a>
+          <a href="{{ '/fr/recherche/' | relative_url }}">Recherche</a>
+          <a href="{{ '/fr/publications/' | relative_url }}">Publications</a>
+          <a href="{{ '/fr/projets/' | relative_url }}">Projets</a>
+          <a href="{{ '/fr/contact/' | relative_url }}">Contact</a>
+          <a class="language-link" href="{{ '/en/' | relative_url }}">EN</a>
+
+        {% else %}
+
+          <a href="{{ '/en/' | relative_url }}">Home</a>
+          <a href="{{ '/en/about/' | relative_url }}">About</a>
+          <a href="{{ '/en/education/' | relative_url }}">Education</a>
+          <a href="{{ '/en/research/' | relative_url }}">Research</a>
+          <a href="{{ '/en/publications/' | relative_url }}">Publications</a>
+          <a href="{{ '/en/projects/' | relative_url }}">Projects</a>
+          <a href="{{ '/en/contact/' | relative_url }}">Contact</a>
+          <a class="language-link" href="{{ '/fr/' | relative_url }}">FR</a>
+
+        {% endif %}
+
+      </nav>
+    </div>
   </header>
-  
-  <!-- /*This block combine with .css to divide the page in different sections*/ -->
-  <main>
-  <div class="main-grid">
-    <aside>
-      <h3>Links and profile info </h3>
-      <p>
-      <img src="{{'/assets/My_img.jpg' | relative_url }}" alt="Quantum Lab" width="250" class="rounded">
-      </p>
-      <p> <a href="{{"https://scholar.google.com/citations?user=fs5BEqIAAAAJ&hl=en&oi=ao" }}">Google profile</a>
-     </p>
-      <p>
-      <a href="{{ '/about/' | relative_url}}">About me</a>
-      </p>
-      <p>
-      <a href="{{ '/publications/' | relative_url}}">Publications</a>
-      </p>
-      <p>
-     <a href="{{ '/awards/' | relative_url}}">Awards</a>
-      </p>
-    </aside>
-    <section>
-      {{ content }}
-    </section>
-  </div>
-</main>
-<!-- It ends here  -->
-  
-  <footer>
-    <p>&copy; {{ site.time | date: '%Y' }} {{ site.author }}</p>
+
+  <!-- MAIN CONTENT -->
+  <main class="main-container">
+    {{ content }}
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+
+    <h3 style="color: white; margin-bottom: 5px;">
+      Alain Giresse TENE
+    </h3>
+
+    <p>
+      Researcher in Quantum Communication and Quantum Computing
+    </p>
+
+    <div class="footer-links">
+      <a href="https://scholar.google.com/citations?user=fs5BEqIAAAAJ&hl=en&oi=ao">
+        Google Scholar
+      </a>
+
+      <a href="https://orcid.org/0000-0002-6440-2813">
+        ORCID
+      </a>
+
+      <a href="https://github.com/AGT2025-Quantum-computing-communication">
+        GitHub
+      </a>
+    </div>
+
+    <p>
+      © {{ site.time | date: "%Y" }} Alain Giresse TENE.
+      All rights reserved.
+    </p>
+
   </footer>
+
 </body>
 </html>
