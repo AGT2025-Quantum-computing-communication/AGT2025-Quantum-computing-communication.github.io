@@ -1,10 +1,92 @@
-theme: jekyll-theme-cayman
-title: AG TENE Home Page
-description: Personal site hosted on GitHub Pages
-url: "https://agtene2025-quantum-computing-communication.github.io"
-include:
-  - assets/css/custom.css
+
+# ==========================================
+# WEBSITE INFORMATION
+# ==========================================
+
+title: "Alain Giresse TENE"
+name: "Alain Giresse TENE"
+
+description: >-
+  Academic portfolio of Alain Giresse TENE,
+  researcher in Quantum Communication and Quantum Computing.
+  Research interests include quantum algorithms, quantum optimization,
+  quantum cryptography, and quantum machine learning.
+
+# ==========================================
+# WEBSITE URL
+# ==========================================
+
+url: "https://agt2025-quantum-computing-communication.github.io"
+
+# Leave empty if this repository publishes directly
+# at the domain root.
+baseurl: ""
+
+# ==========================================
+# WEBSITE LANGUAGE
+# ==========================================
+
+lang: "en"
+
+# ==========================================
+# AUTHOR INFORMATION
+# ==========================================
+
+author:
+  name: "Alain Giresse TENE"
+  bio: "Researcher in Quantum Communication and Quantum Computing"
+  location: "Cameroon"
+
+  github: "AGT2025-Quantum-computing-communication"
+
+  orcid: "0000-0002-6440-2813"
+
+  google_scholar: "https://scholar.google.com/citations?user=fs5BEqIAAAAJ&hl=en&oi=ao"
+
+# ==========================================
+# JEKYLL CONFIGURATION
+# ==========================================
+
+markdown: kramdown
+
+highlighter: rouge
+
+permalink: pretty
+
+timezone: Africa/Douala
+
+# ==========================================
+# DEFAULT PAGE SETTINGS
+# ==========================================
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+# ==========================================
+# EXCLUDED FILES
+# ==========================================
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+
+# ==========================================
+# PLUGINS
+# ==========================================
+
 plugins:
   - jekyll-sitemap
-  
-author: Alain Giresse TENE
+  - jekyll-seo-tag
+
+# ==========================================
+# SASS CONFIGURATION
+# ==========================================
+
+sass:
+  style: compressed
